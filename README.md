@@ -9,6 +9,19 @@ javascript:var inputs = document.getElementsByClassName('button-text follow-text
 for(var i=0; i<inputs.length;i++) { inputs[i].click(); }
 ```
 
+####MassUnfavorite
+
+1. Open [https://twitter.com/favorites](https://twitter.com/favorites)
+2. Copy this javascript ,paste on console box and press enter
+3. Refresh your page and repeat
+
+
+```javascript
+javascript:var inputs = document.getElementsByClassName('ProfileTweet-actionButtonUndo js-actionFavorite'); 
+for(var i=0; i<inputs.length;i++) { inputs[i].click(); }
+```
+
+
 ##Facebook
 ####Add all suggested friends
 
@@ -20,5 +33,5 @@ for( i = 1;i<document.getElementsByClassName("_42ft _4jy0 FriendRequestAdd addBu
     document.getElementsByClassName("_42ft _4jy0 FriendRequestAdd addButton _4jy3 _517h _51sy")[i].click();
     }
 void(0);
-
 ```
+
