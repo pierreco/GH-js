@@ -20,6 +20,19 @@ for(var i=0; i<inputs.length;i++) { inputs[i].click(); }
 javascript:var inputs = document.getElementsByClassName('ProfileTweet-actionButtonUndo js-actionFavorite'); 
 for(var i=0; i<inputs.length;i++) { inputs[i].click(); }
 ```
+
+####MassFavorite
+
+1. Open [https://twitter.com/search-home](https://twitter.com/search-home)
+2. Write your hashtag keywords and press Enter
+3. Click to "Direct" and scrol down
+4. Copy this javascript, paste on console box CMD + ALT + J (Mac) and press enter 
+
+```javascript
+javascript:var inputs = document.getElementsByClassName('ProfileTweet-actionButton js-actionButton js-actionFavorite'); 
+for(var i=0; i<inputs.length;i++) { inputs[i].click(); }
+```
+
 ###Tools
 
 #####Unfollow users not following you with interface
